@@ -25,7 +25,16 @@ a{
     margin: 0;
     padding: 24px;
     color : #E5E7EB
+    font-family: 'Press Start 2P', 'Times New Roman', Times, serif;
+    color: white;
+    text-shadow: 5px 5px 3px yellow;
     
+}
+.header img:hover{
+    transform: rotate(360deg);
+}
+.header img{
+    transition: transform 0.3s ease ;
 }
 .one{
     display : flex;
